@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curriculum Vitae</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="aset/bootstrap-4.3.1-dist/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="aset/fontawesome/css/all.css"/>
+
+    <style>
+      @media(min-width: 768px){
+        .petunjuk,.panah{
+          display:none;
+        }
+        .nama,.lahir{
+          text-align:left !important;
+        }
+        .ornamen{
+          height: 30px;
+          background-color:green;
+        }
+        .menu{
+          display:none;
+        }
+        .bulkir{
+          position:relative;
+          height: 15px;
+          width: 15px;
+          border-style:solid;
+          border-width:7px;
+          border-radius:180px;
+          border-color:green;
+          top:9px;
+          left:-2px;
+        }
+        .garis{
+          height:2px;
+          background-color:green;
+        }
+        .bulkan{
+          position:absolute;
+          height: 15px;
+          width: 15px;
+          border-style:solid;
+          border-width:7px;
+          border-radius:180px;
+          border-color:green;
+          top:9px;
+          right:9px;
+        }
+        div.foot{
+          height:75px;
+          display:inline-block
+        }
+
+        .poto{
+          width: 190px;
+          height: 184px;
+        }
+
+      }
+
+
+      @media(max-width:767.98px){
+
+        html, body{
+          height:100%;
+        }
+        .kepala{
+          height:100vh;
+
+        }
+        .menu{
+          overflow:auto;
+          white-space:nowrap;
+        }
+     
+        
+        .pendidikan{
+          height:100vh;
+          display:none;
+
+        }
+        .skill{
+          height:100vh;
+          display:none;
+        }
+        .kontak{
+          height:100vh;
+          display:none;
+        }
+        footer{
+          display:none
+        }
+        
+      }
+
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <header class="container-fluid bg-success kepala">
+      <div class="row">
+        <div class="col-md-2 text-center text-light border rounded m-2">
+            <img src="poto.jpeg" alt="" class="poto">    
+          <h1 class="lead mt-2">     
+          </h1>
+        </div>
+        <div class="col-md-9 text-white bg-success">
+          <h2 class="text-uppercase text-center nama mt-2">
+            I Putu Suryadiva Abdidharma
+          </h2>
+          <p class="lead text-center lahir">
+            Biak, 19-Desember-2001
+          </p>
+          <p class="text-center petunjuk">
+            Selamat datang di Halaman Curriculum Vitae saya, jika resolusi layar Anda kecil silahkan menggunakan menu di bawah untuk tahu lebih lanjut.
+          </p>
+          <p class="mt-2 text-center panah">
+            <i class="fas fa-arrow-down fa-2x "></i>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <div class="ornamen bg-secondary">
+
+    </div>
+
+    <nav>
+      <div class="btn-group fixed-bottom menu" role="group">
+        <button type="button" class="btn btn-success bhome"><i class="fas fa-home mr-1"></i>Beranda</button>
+        <button type="button" class="btn btn-success bdidik"><i class="fas fa-graduation-cap mr-1"></i>PENDIDIKAN</button>
+        <button type="button" class="btn btn-success bahli"><i class="fas fa-toolbox mr-1"></i>SKILL</button>
+        <button type="button" class="btn btn-success bkontak"><i class="fas fa-mail-bulk mr-1"></i>KONTAK</button>
+      </div>
+    </nav>
+
+      <div class="row">
+        <div class="col-md-12 mt-n5 ornamendua">
+          <div class="bulkir">
+
+          </div>
+          <div class="garis">
+
+          </div>
+          <div class="bulkan">
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row pendidikan mt-2">
+        <h2 class="ml-4 text-success">
+          <i class="fas fa-graduation-cap ml-2 mr-2"></i>PENDIDIKAN
+        </h2>
+        <div class="col-md-12 mb-4">
+          <ul class="list-group list-group-horizontal-md mb-4 border-right-0 border-left-0 lgrup">
+            <li class="list-group-item flex-fill border-right-0 border-left-0">
+              <h4>SD </h4 >
+              <p class="m-0">SD Negeri 4 Takmung </p>
+              <p class="badge badge-pill badge-success m-0"><small>Tahun 2008 - 2014</small></p>
+            </li>
+            <li class="list-group-item flex-fill border-right-0 border-left-0">
+              <h4>SMP</h4>
+              <p class="m-0">SMP Negeri 2 Semarapura</p>
+              <p class="badge badge-pill badge-success m-0"><small>Tahun 2014 - 2017</small></p>
+            </li>
+            <li class="list-group-item flex-fill border-right-0 border-left-0">
+              <h4>SMA</h4>
+              <p class="m-0">SMK TI Bali Global Klungkung</p>
+              <p class="badge badge-pill badge-success m-0"><small>Tahun 2017 - 2020</small></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+       <div class="col-md-12 mt-n5 ornamendua">
+         <div class="bulkir">
+
+         </div>
+         <div class="garis">
+
+         </div>
+         <div class="bulkan">
+         </div>
+       </div>
+      </div>
+
+
+      <div class="row skill mt-2 mb-3">
+        <div class="col-md-12">
+        <h2 class=" ml-3 text-success">
+          <i class="fas fa-toolbox ml-2 mr-2"></i>SKILL
+        </h2>
+        </div>
+
+
+        <div class="col">
+          <div class="media">
+            
+            <div class="media-body">
+              <p class="m-0 text-muted">HTML</p>
+              <div class="progress mb-2">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">82</div>
+              </div>
+
+              <p class="m-0 text-muted">CSS</p>
+              <div class="progress mb-2">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78</div>
+              </div>
+
+              <p class="m-0 text-muted">PHP</p>
+              <div class="progress mb-2">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70</div>
+              </div>
+
+              <p class="m-0 text-muted">Bootstrap</p>
+              <div class="progress mb-2">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="media">
+           
+            <div class="media-body">
+              <p class="m-0 text-muted">ADOBE PHOTOSHOP</p>
+              <div class="progress mb-2">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75</div>
+              </div>
+
+              <p class="m-0 text-muted">ADOBE PREMIRE</p>
+              <div class="progress mb-2">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70</div>
+              </div>
+
+              <p class="m-0 text-muted">COREL DRAW</p>
+              <div class="progress mb-2">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75</div>
+              </div>
+
+              <p class="m-0 text-muted">ADOBE FLASH</p>
+              <div class="progress mb-2">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12 mt-n4 mb-4 ornamendua">
+         <div class="bulkir">
+
+         </div>
+         <div class="garis">
+
+         </div>
+         <div class="bulkan">
+
+         </div>
+        </div>
+      </div>
+
+
+      <div class="row mt-2 kontak mb-4">
+
+        <h2 class="ml-4 text-success">
+          <i class="fas fa-inbox ml-2 mr-2"></i>KONTAk
+        </h2>
+
+        <div class="col-md-12">
+
+
+          <ul class="list-group list-group-horizontal-md border-left-0 border-right-0">
+            <li class="list-group-item flex-fill border-left-0 border-right-0">
+              <p><i class="fas fa-mobile-alt ml-2 mr-2"></i>089-792-072-74</p>
+              <p><i class="fab fa-whatsapp ml-2 mr-2"></i>085-920-331-470 </p>
+            </li>
+            <li class="list-group-item flex-fill border-left-0 border-right-0">
+              <p><i class="fab fa-facebook mr-2"></i>facebook</p>
+              <p><i class="fab fa-instagram mr-2"></i> instagram</p>
+            </li>
+            <li class="list-group-item flex-fill border-right-0 border-left-0"><i class="fas fa-mail-bulk mr-2"></i>endersurya19@gmail.com</li>
+          </ul>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="col-md-12 bg-secondary foot">
+        <p class="align-middle text-center text-white bg-success rounded mt-n2 pt-2" style="height:40px">
+          Dibuat oleh I Putu Suryadiva Abdidharma
+        </p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="aset/jquery/js/jquery.min.js"></script>
+    <script
+  src="aset/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script> 
+    <script>
+      $("button.bhome").click(function(){
+        $("div.karir").hide();
+        $("div.pendidikan").hide();
+        $("div.keahlian").hide();
+        $("div.kontak").hide();
+        $("header.kepala").fadeIn();
+      });
+
+      $("button.bkarir").click(function(){
+        $("header.kepala").hide();
+        $("div.pendidikan").hide();
+        $("div.keahlian").hide();
+        $("div.kontak").hide();
+        $("div.karir").fadeIn();
+      });
+
+      $("button.bdidik").click(function(){
+        $("header.kepala").hide();
+        $("div.pendidikan").fadeIn();
+        $("div.keahlian").hide();
+        $("div.kontak").hide();
+        $("div.karir").hide();
+      });
+
+      $("button.bahli").click(function(){
+        $("header.kepala").hide();
+        $("div.pendidikan").hide();
+        $("div.keahlian").fadeIn();
+        $("div.kontak").hide();
+        $("div.karir").hide();
+      });
+
+
+      $("button.bkontak").click(function(){
+        $("header.kepala").hide();
+        $("div.pendidikan").hide();
+        $("div.keahlian").hide();
+        $("div.kontak").fadeIn();
+        $("div.karir").hide();
+      });
+
+
+
+    </script>
+  </body>
+</html>
